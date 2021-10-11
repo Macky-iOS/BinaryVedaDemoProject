@@ -25,7 +25,7 @@
                             <constraint firstAttribute="height" constant="80" id="loa-59-ez5"/>
                         </constraints>
                     </imageView>
-                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mainImage" translatesAutoresizingMaskIntoConstraints="NO" id="63N-lU-9hA">
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mainImage" translatesAutoresizingMaskIntoConstraints="NO" id="63N-lU-9hA">
                         <rect key="frame" x="0.0" y="105" width="460" height="250"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="250" id="M9u-3a-rD1"/>
@@ -59,6 +59,9 @@
                                                 <integer key="value" value="9"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="btnRegister:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="v51-9o-q87"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>

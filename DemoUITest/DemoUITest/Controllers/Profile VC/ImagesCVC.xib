@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="ImagesCVC" reuseIdentifier="ImagesCVC" id="gTV-IL-0wX" customClass="ImagesCVC" customModule="DemoUITest" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="187" height="197"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="187" height="197"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="universe-g860b00080_1920" translatesAutoresizingMaskIntoConstraints="NO" id="KXB-LC-60O">
+                        <rect key="frame" x="0.0" y="0.0" width="181" height="197"/>
+                    </imageView>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="KXB-LC-60O" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Tog-yz-8ee"/>
+                <constraint firstItem="KXB-LC-60O" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="U5z-4A-KiA"/>
+                <constraint firstAttribute="trailing" secondItem="KXB-LC-60O" secondAttribute="trailing" constant="6" id="nC1-Xp-PcC"/>
+                <constraint firstAttribute="bottom" secondItem="KXB-LC-60O" secondAttribute="bottom" id="wFG-rW-MPm"/>
+            </constraints>
+            <size key="customSize" width="187" height="197"/>
+            <connections>
+                <outlet property="imgView" destination="KXB-LC-60O" id="uem-Zc-ZaQ"/>
+            </connections>
+            <point key="canvasLocation" x="194.92753623188406" y="106.13839285714285"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="universe-g860b00080_1920" width="1920" height="904"/>
+    </resources>
+</document>

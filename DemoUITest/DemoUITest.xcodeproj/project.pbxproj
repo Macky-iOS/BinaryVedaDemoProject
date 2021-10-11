@@ -21,6 +21,13 @@
 		EA3FB7552713672F00DEF604 /* LandingPageFooterTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3FB7532713672F00DEF604 /* LandingPageFooterTVC.swift */; };
 		EA3FB7562713672F00DEF604 /* LandingPageFooterTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA3FB7542713672F00DEF604 /* LandingPageFooterTVC.xib */; };
 		EA3FB75C271375EF00DEF604 /* RegistarClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3FB75B271375EF00DEF604 /* RegistarClass.swift */; };
+		EA527ACE2714A43E00AC8C62 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA527ACD2714A43E00AC8C62 /* ProfileVC.swift */; };
+		EA527AD32714A48000AC8C62 /* ProfileHeaderTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA527AD12714A48000AC8C62 /* ProfileHeaderTVC.swift */; };
+		EA527AD42714A48000AC8C62 /* ProfileHeaderTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA527AD22714A48000AC8C62 /* ProfileHeaderTVC.xib */; };
+		EA8837D02714C1340019CFC9 /* ProfileCollectionTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8837CE2714C1340019CFC9 /* ProfileCollectionTVC.swift */; };
+		EA8837D12714C1340019CFC9 /* ProfileCollectionTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA8837CF2714C1340019CFC9 /* ProfileCollectionTVC.xib */; };
+		EA8837D52714C1AD0019CFC9 /* ImagesCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8837D32714C1AD0019CFC9 /* ImagesCVC.swift */; };
+		EA8837D62714C1AD0019CFC9 /* ImagesCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA8837D42714C1AD0019CFC9 /* ImagesCVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +47,13 @@
 		EA3FB7532713672F00DEF604 /* LandingPageFooterTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPageFooterTVC.swift; sourceTree = "<group>"; };
 		EA3FB7542713672F00DEF604 /* LandingPageFooterTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LandingPageFooterTVC.xib; sourceTree = "<group>"; };
 		EA3FB75B271375EF00DEF604 /* RegistarClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistarClass.swift; sourceTree = "<group>"; };
+		EA527ACD2714A43E00AC8C62 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		EA527AD12714A48000AC8C62 /* ProfileHeaderTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderTVC.swift; sourceTree = "<group>"; };
+		EA527AD22714A48000AC8C62 /* ProfileHeaderTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileHeaderTVC.xib; sourceTree = "<group>"; };
+		EA8837CE2714C1340019CFC9 /* ProfileCollectionTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCollectionTVC.swift; sourceTree = "<group>"; };
+		EA8837CF2714C1340019CFC9 /* ProfileCollectionTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileCollectionTVC.xib; sourceTree = "<group>"; };
+		EA8837D32714C1AD0019CFC9 /* ImagesCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesCVC.swift; sourceTree = "<group>"; };
+		EA8837D42714C1AD0019CFC9 /* ImagesCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImagesCVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,13 +102,8 @@
 		EA3FB759271375A500DEF604 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				EA3FB735271362B900DEF604 /* LandingPageVC.swift */,
-				EA3FB7492713631D00DEF604 /* LandingPageHeaderTVC.swift */,
-				EA3FB7532713672F00DEF604 /* LandingPageFooterTVC.swift */,
-				EA3FB7542713672F00DEF604 /* LandingPageFooterTVC.xib */,
-				EA3FB74E2713667A00DEF604 /* LandingPageTVC.swift */,
-				EA3FB74F2713667A00DEF604 /* LandingPageTVC.xib */,
-				EA3FB74A2713631D00DEF604 /* LandingPageHeaderTVC.xib */,
+				EA527ACC2714A40700AC8C62 /* Profile VC */,
+				EA527ACB2714A3E400AC8C62 /* Landing Page VC */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -105,6 +114,34 @@
 				EA3FB75B271375EF00DEF604 /* RegistarClass.swift */,
 			);
 			path = "Helper Classes";
+			sourceTree = "<group>";
+		};
+		EA527ACB2714A3E400AC8C62 /* Landing Page VC */ = {
+			isa = PBXGroup;
+			children = (
+				EA3FB7492713631D00DEF604 /* LandingPageHeaderTVC.swift */,
+				EA3FB735271362B900DEF604 /* LandingPageVC.swift */,
+				EA3FB7532713672F00DEF604 /* LandingPageFooterTVC.swift */,
+				EA3FB7542713672F00DEF604 /* LandingPageFooterTVC.xib */,
+				EA3FB74E2713667A00DEF604 /* LandingPageTVC.swift */,
+				EA3FB74F2713667A00DEF604 /* LandingPageTVC.xib */,
+				EA3FB74A2713631D00DEF604 /* LandingPageHeaderTVC.xib */,
+			);
+			path = "Landing Page VC";
+			sourceTree = "<group>";
+		};
+		EA527ACC2714A40700AC8C62 /* Profile VC */ = {
+			isa = PBXGroup;
+			children = (
+				EA527ACD2714A43E00AC8C62 /* ProfileVC.swift */,
+				EA527AD12714A48000AC8C62 /* ProfileHeaderTVC.swift */,
+				EA527AD22714A48000AC8C62 /* ProfileHeaderTVC.xib */,
+				EA8837CE2714C1340019CFC9 /* ProfileCollectionTVC.swift */,
+				EA8837CF2714C1340019CFC9 /* ProfileCollectionTVC.xib */,
+				EA8837D32714C1AD0019CFC9 /* ImagesCVC.swift */,
+				EA8837D42714C1AD0019CFC9 /* ImagesCVC.xib */,
+			);
+			path = "Profile VC";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,7 +204,10 @@
 				EA3FB741271362BD00DEF604 /* LaunchScreen.storyboard in Resources */,
 				EA3FB74C2713631D00DEF604 /* LandingPageHeaderTVC.xib in Resources */,
 				EA3FB7512713667A00DEF604 /* LandingPageTVC.xib in Resources */,
+				EA8837D12714C1340019CFC9 /* ProfileCollectionTVC.xib in Resources */,
 				EA3FB7562713672F00DEF604 /* LandingPageFooterTVC.xib in Resources */,
+				EA8837D62714C1AD0019CFC9 /* ImagesCVC.xib in Resources */,
+				EA527AD42714A48000AC8C62 /* ProfileHeaderTVC.xib in Resources */,
 				EA3FB73E271362BD00DEF604 /* Assets.xcassets in Resources */,
 				EA3FB739271362B900DEF604 /* Main.storyboard in Resources */,
 			);
@@ -180,11 +220,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA527AD32714A48000AC8C62 /* ProfileHeaderTVC.swift in Sources */,
 				EA3FB7552713672F00DEF604 /* LandingPageFooterTVC.swift in Sources */,
 				EA3FB736271362B900DEF604 /* LandingPageVC.swift in Sources */,
 				EA3FB74B2713631D00DEF604 /* LandingPageHeaderTVC.swift in Sources */,
+				EA527ACE2714A43E00AC8C62 /* ProfileVC.swift in Sources */,
 				EA3FB732271362B900DEF604 /* AppDelegate.swift in Sources */,
 				EA3FB73C271362B900DEF604 /* DemoUITest.xcdatamodeld in Sources */,
+				EA8837D02714C1340019CFC9 /* ProfileCollectionTVC.swift in Sources */,
+				EA8837D52714C1AD0019CFC9 /* ImagesCVC.swift in Sources */,
 				EA3FB75C271375EF00DEF604 /* RegistarClass.swift in Sources */,
 				EA3FB7502713667A00DEF604 /* LandingPageTVC.swift in Sources */,
 				EA3FB734271362B900DEF604 /* SceneDelegate.swift in Sources */,

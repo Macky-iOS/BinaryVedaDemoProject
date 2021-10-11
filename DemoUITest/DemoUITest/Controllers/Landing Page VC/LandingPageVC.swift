@@ -22,6 +22,7 @@ extension LandingPageVC: UITableViewDelegate, UITableViewDataSource{
         switch indexPath.row {
         case 0:
             let cell = LandingPageHeaderTVC.dequeReusably(for: tableView, at: indexPath)
+            cell.delegate = self
             return cell
         case 6:
             let cell = LandingPageFooterTVC.dequeReusably(for: tableView, at: indexPath)
@@ -31,13 +32,17 @@ extension LandingPageVC: UITableViewDelegate, UITableViewDataSource{
             return cell
         }
     }
-    
-   
-    
+        
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         UITableView.automaticDimension
     }
     
-  
     
+}
+
+extension LandingPageVC: SIgnDelegate{
+    func goToNextScreen() {
+        let vc  = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(identifier: "ProfileVC") as? ProfileVC ?? UIViewController()
+        navigationController?.pushViewController(vc, animated: true)
+    }
 }
